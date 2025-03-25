@@ -1,3 +1,4 @@
+import "./WeatherForecast.css";
 const WeatherDay = ({ day, conditions, time }) => {
   return (
     <div>

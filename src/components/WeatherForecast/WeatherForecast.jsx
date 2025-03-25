@@ -6,7 +6,7 @@ const weatherForecast = (props) => {
   const { weather } = props;
   return (
     <div className="weather">
-      <WeatherIcon image={weather.img} imagealt={weather.imgAlt} />
+      <WeatherIcon image={weather.img} imgalt={weather.imgAlt} />
       <WeatherDay {...weather} />
     </div>
   );

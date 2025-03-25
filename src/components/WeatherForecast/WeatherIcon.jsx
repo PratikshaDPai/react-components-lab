@@ -1,7 +1,8 @@
 import "./WeatherForecast.css";
 
-const WeatherIcon = ({ image }) => {
-  return <img src={image}></img>;
+const WeatherIcon = (props) => {
+  const { image, imgalt } = props;
+  return <img src={image} alt={imgalt}></img>;
 };
 
 export default WeatherIcon;
